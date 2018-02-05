@@ -24,3 +24,5 @@ The following picutures are used under the CC Attribution-ShareAlike 3.0 Unporte
 The following picture is used under the CC 0 License (https://creativecommons.org/publicdomain/zero/1.0/deed.de)
 
 "Old Books" by Jose Antonio alba, Source: (https://pixabay.com/de/alte-b%C3%BCcher-buch-b%C3%BCcher-alte-lesen-1237619/)
+
+I want to thank all those amazing creative people allowing others to use their works!
