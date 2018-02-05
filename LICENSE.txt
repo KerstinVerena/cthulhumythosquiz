@@ -1,0 +1,33 @@
+ 
+ Copyright [2018] [Kerstin Baumann]
+
+   The code of this application is licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+   
+   Pictures:
+   The following picutures are used under the CC Attribution-ShareAlike 3.0 Unported License(https://creativecommons.org/licenses/by-sa/3.0/deed.en):
+   "The Unholy Worship" by Gwabryel's (Source:http://gwabryel.blogspot.de/2008/05/unholy-worship-from-lovecrafts-text.html)
+   "Spawn of the Stars" by Sofyan Syarief (Source: https://www.artstation.com/artwork/8ordn)
+   "Shub-Niggurath" by Dominique Signoret (The original source, http://signodom.club.fr/, is unfortunately no longer online, you can find the picture still on wikipedia: (https://en.wikipedia.org/wiki/File:Shub-Niggurath.jpg)
+   "Migo" by Khaenna SunTzun (Source: https://commons.wikimedia.org/wiki/File:Migo.jpg)
+   "Shoggoth" by Nottsuo (Source: https://nottsuo.deviantart.com/art/Shoggoth-594261203)
+   "The Madness from the Sea" by Sofyan Syarief (https://gambaryance.deviantart.com/art/The-Madness-from-the-Sea-125187653)
+   
+   The following picture is used under the CC 0 License (https://creativecommons.org/publicdomain/zero/1.0/deed.de)
+   "Old Books" by Jose Antonio alba(Source: https://pixabay.com/de/alte-b%C3%BCcher-buch-b%C3%BCcher-alte-lesen-1237619/ )
+   
+   The questions of this quiz are inspired by the "Cthulhu Mythos" by HP Lovecraft.
+   
+   
+  
+   
+   
