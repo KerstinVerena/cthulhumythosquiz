@@ -5,6 +5,7 @@ import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.RadioButton;
@@ -13,6 +14,10 @@ import android.widget.Toast;
 
 public class RadioButtonActivity extends AppCompatActivity {
 
+    public static RadioButton answerOneRadioButton;
+    public static RadioButton answerTwoRadioButton;
+    public static RadioButton answerThreeRadioButton;
+    public static RadioButton answerFourRadioButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,10 +29,10 @@ public class RadioButtonActivity extends AppCompatActivity {
         TextView questionTextView = (TextView) findViewById(R.id.pose_question);
         ImageView questionPicture = (ImageView) findViewById(R.id.flavor_image);
         Resources res = getResources();
-        RadioButton answerOneRadioButton = (RadioButton) findViewById(R.id.answer_1_button);
-        RadioButton answerTwoRadioButton = (RadioButton) findViewById(R.id.answer_2_button);
-        RadioButton answerThreeRadioButton = (RadioButton) findViewById(R.id.answer_3_button);
-        RadioButton answerFourRadioButton = (RadioButton) findViewById(R.id.answer_4_button);
+        answerOneRadioButton = (RadioButton) findViewById(R.id.answer_1_button);
+        answerTwoRadioButton = (RadioButton) findViewById(R.id.answer_2_button);
+        answerThreeRadioButton = (RadioButton) findViewById(R.id.answer_3_button);
+        answerFourRadioButton = (RadioButton) findViewById(R.id.answer_4_button);
 
         /**
          * Add and update score bar.
@@ -80,19 +85,15 @@ public class RadioButtonActivity extends AppCompatActivity {
 
     public void giveAnswer(View view) {
         //Find out if Button One is clicked.
-        RadioButton answerOneRadioButton = (RadioButton) findViewById(R.id.answer_1_button);
         boolean hasClickedButtonOne = answerOneRadioButton.isChecked();
 
         //Find out if Button Two is clicked.
-        RadioButton answerTwoRadioButton = (RadioButton) findViewById(R.id.answer_2_button);
         boolean hasClickedButtonTwo = answerTwoRadioButton.isChecked();
 
         //Find out if Button Three is clicked.
-        RadioButton answerThreeRadioButton = (RadioButton) findViewById(R.id.answer_3_button);
         boolean hasClickedButtonThree = answerThreeRadioButton.isChecked();
 
         //Find out if Button Four is clicked.
-        RadioButton answerFourRadioButton = (RadioButton) findViewById(R.id.answer_4_button);
         boolean hasClickedButtonFour = answerFourRadioButton.isChecked();
 
         if (hasClickedButtonOne == false && hasClickedButtonTwo == false && hasClickedButtonThree == false && hasClickedButtonFour == false) {

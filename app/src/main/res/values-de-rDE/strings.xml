@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">>
+    <string name="app_name">Cthulhu Mythos Quiz</string>
+    <string name="greeting">Willkommen, Akolyth, wie ist dein Name?</string>
+    <string name="starting_call">Du glaubst, du kennst die Geheimnisse der großen Wesen alter Zeiten?</string>
+    <string name="start_button">Beweise es!</string>
+    <string name="answer_button">Antworten</string>
+    <string name="continue_button">Weiter</string>
+    <string name="hint_name">Name</string>
+    <string name="score_bar">Dein Mythoswissen</string>
+    <string name="default_name">Akolyth</string>
+    <string name="question_1">Was für eine Art von Wesen ist Cthulhu?</string>
+    <string name="question_2">Welche Kreatur wird auch \"Die schwarze Ziege aus den Wäldern mit den tausend Jungen\" genannt?</string>
+    <string name="question_3">Von wo stammen die Mi-go?</string>
+    <string name="question_4">Warum ging die Kultur der Alten Wesen unter?</string>
+    <string name="question_5">Welche der folgenden Arbeiten beinhalten Themen und Referenzen inspiriert vom Cthulhu Mythos?</string>
+    <string name="question_6">Vervollständige das Gedicht!</string>
+    <string name="toast_no_answer">Versuch es zumindest, <xliff:g example="Acolyte" id="playerName">%1$s</xliff:g> !</string>
+    <string name="toast_right_answer">Sehr gut, <xliff:g example="Acolyte" id="playerName">%1$s</xliff:g>, das ist richtig!</string>
+    <string name="toast_fun_answer">Nun ja... irgendwie schon.</string>
+    <string name="toast_part_answer">Teilweise richtig, lerne weiter.</string>
+    <string name="question_1_answer_1">Ein Tiefenwesen</string>
+    <string name="question_1_answer_2">Ein äußerer Gott</string>
+    <string name="question_1_answer_3">Ein großer Alter</string>
+    <string name="question_1_answer_4">Ein verdammtes Tentakelmonster</string>
+    <string name="question_2_answer_1">Cthulhu</string>
+    <string name="question_2_answer_2">Mutter Hydra</string>
+    <string name="question_2_answer_3">Shubb\-Nigurath</string>
+    <string name="question_2_answer_4">Hekate</string>
+    <string name="question_3_answer_1">Pluto</string>
+    <string name="question_3_answer_2">Der Mond</string>
+    <string name="question_3_answer_3">Die Tiefen der See</string>
+    <string name="question_3_answer_4">R\'lyeh</string>
+    <string name="question_4_answer_1">Die Rebellion der Shoggothen</string>
+    <string name="question_4_answer_2">Ein Krieg mit Chtulhu und den Tiefenwesen</string>
+    <string name="question_4_answer_3">Die Eiszeit</string>
+    <string name="question_4_answer_4">Ein großer Bürgerkrieg</string>
+    <string name="question_5_answer_1">Stephen Kings \"Es\"</string>
+    <string name="question_5_answer_2">Stranger Things</string>
+    <string name="question_5_answer_3">Das Lied von Eis und Feuer</string>
+    <string name="question_5_answer_4">World of Warcraft</string>
+    <string name="explanation_1">Cthulhu is einer der großen Alten. Er wird als eine MIschung aus einem gigantischen Oktopus, einem Drachen und einem Menschen beschrieben. Daher kann man ihn auch ein Tentakelmonster zu ennen.</string>
+    <string name="explanation_2">Shubb-Nigurath ist eine Gottheit, die von manchen zu den großen Alten, von manchen zu den äußeren Göttern gezählt wird. Ihre Anhänger nennen sie auch \"Die schwarze Ziege aus den Wäldern mit den tausend Jungen\".</string>
+    <string name="explanation_3">Die Mi-go sind intelligente, außerirdische Lebewesen der Gattung Pilze. Ihre Heimat liegt auf dem Planeten Pluto, der im Mythos auch Yuggoth genannt wird.</string>
+    <string name="explanation_4">Nach dem was im Mythos bekannt ist, gibt es zwei Hauptgründe für den Untergang der Kultur der alten Wesen: Die Rebellion der Shoggotten, einer Spezies, die ursprünglich von den alten Wesen als Diener erschaffen wurden, und die Abkühlung des Planeten während der Eiszeit.</string>
+    <string name="explanation_5">Das Monster in \"Es\" von Stephen King, der \"Ertrunkene Gott\" in \"Ein Lied von Eis und Feier von George R.R. Marting, die Alten Götter in \"World of Warcraft\" von Blizzard Entertainment und die Wesenheit im Upside Down von Netflixs \"Stranger Things\" - sie alle weisen Referenzen und Themen des Cthulhu Mythos auf.</string>
+    <string name="explanation_6">That is not dead which can eternal lay,   and with strange aeons even death may die.</string>
+    <string name="poem">That is not dead which can eternal lay, \nand with strange aeons...</string>
+    <string name="final_score">Bein Cthulhu-Mythoswissen beträgt <xliff:g example="100%" id="rating">%1$s</xliff:g> von 100.</string>
+    <string name="good_rating">Kannst du sie in deinen Träumen flüstern hören, <xliff:g example="Acolyth" id="playername">%1$s</xliff:g>? \\n \\n Ph\'nglui mglw\'nafh Cthulhu R\'lyeh wgah\'nagl fhtagn</string>
+    <string name="average_rating">Möchtest du wirklich mehr wissen, <xliff:g example="Acolyth" id="playername">%1$s</xliff:g>?</string>
+    <string name="low_rating">\"Die größte Gnade der Welt ist, so denke ich, die Unfähigkeit des menschlichen Geistes alle ihre Geheimnisse zu begreifen.\"  \\n H.P. Lovecraft - Der Ruft des Cthulhu 1926</string>
+    <string name="toast_wrong_answer">Nein, <xliff:g example="Acolyte" id="playerName">%1$s</xliff:g>, das ist falsch!</string>
+</resources>

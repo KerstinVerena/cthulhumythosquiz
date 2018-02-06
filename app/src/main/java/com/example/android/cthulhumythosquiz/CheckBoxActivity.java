@@ -8,10 +8,16 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
+import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class CheckBoxActivity extends AppCompatActivity {
+
+    public static CheckBox checkBoxOne;
+    public static CheckBox checkBoxTwo;
+    public static CheckBox checkBoxThree;
+    public static CheckBox checkBoxFour;
 
 
     @Override
@@ -26,10 +32,10 @@ public class CheckBoxActivity extends AppCompatActivity {
         TextView questionTextView = (TextView) findViewById(R.id.pose_question);
         ImageView questionPicture = (ImageView) findViewById(R.id.flavor_image);
         Resources res = getResources();
-        CheckBox checkBoxOne = (CheckBox) findViewById(R.id.checkbox_1);
-        CheckBox checkBoxTwo = (CheckBox) findViewById(R.id.checkbox_2);
-        CheckBox checkBoxThree = (CheckBox) findViewById(R.id.checkbox_3);
-        CheckBox checkBoxFour = (CheckBox) findViewById(R.id.checkbox_4);
+        checkBoxOne = (CheckBox) findViewById(R.id.checkbox_1);
+        checkBoxTwo = (CheckBox) findViewById(R.id.checkbox_2);
+        checkBoxThree = (CheckBox) findViewById(R.id.checkbox_3);
+        checkBoxFour = (CheckBox) findViewById(R.id.checkbox_4);
 
         /**
          * Add and update score bar.
@@ -61,20 +67,16 @@ public class CheckBoxActivity extends AppCompatActivity {
 
     public void giveAnswer(View view) {
         //Find out if Checkbox One is checked.
-        CheckBox checkBoxOne = (CheckBox) findViewById(R.id.checkbox_1);
         boolean hasCheckedBoxOne = checkBoxOne.isChecked();
 
         //Find out if Checkbox Two is checked.
-        CheckBox checkBoxTwo = (CheckBox) findViewById(R.id.checkbox_2);
-        boolean hasCheckedBoxTwo = checkBoxTwo.isChecked();
+       boolean hasCheckedBoxTwo = checkBoxTwo.isChecked();
 
         //Find out if Checkbox Three is checked.
-        CheckBox checkBoxThree = (CheckBox) findViewById(R.id.checkbox_3);
         boolean hasCheckedBoxThree = checkBoxThree.isChecked();
 
         //Find out if Checkbox Three is checked.
-        CheckBox checkBoxFour = (CheckBox) findViewById(R.id.checkbox_4);
-        boolean hasCheckedBoxFour = checkBoxFour.isChecked();
+       boolean hasCheckedBoxFour = checkBoxFour.isChecked();
 
 
         if (hasCheckedBoxOne == false && hasCheckedBoxTwo == false && hasCheckedBoxThree == false && hasCheckedBoxFour == false) {
