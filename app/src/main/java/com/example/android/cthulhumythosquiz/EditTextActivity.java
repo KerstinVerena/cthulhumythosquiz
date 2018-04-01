@@ -15,15 +15,18 @@ public class EditTextActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_text);
 
+
         /**
-         * Add and update score bar.
+         * Add and update progress bar. More information about implementing a progress bar can be found on: https://developer.android.com/reference/android/widget/ProgressBar.html
          */
-        ProgressBar playerProgress = (ProgressBar) findViewById(R.id.score_bar);
-        playerProgress.setProgress(MainActivity.score);
+        ProgressBar playerProgress = findViewById(R.id.progress_bar);
+        int currentProgress = MainActivity.questionsAsked-1;
+        currentProgress = currentProgress*10;
+        playerProgress.setProgress(currentProgress);
     }
 
     /**
-     * Prevent people from going back in the app.
+     * Prevent people from going back in the app. Code used from: https://stackoverflow.com/questions/8631095/android-preventing-going-back-to-the-previous-activity
      */
     @Override
     public void onBackPressed() {
@@ -35,16 +38,18 @@ public class EditTextActivity extends AppCompatActivity {
 
     public void giveAnswer(View view) {
         //Find out what is typed in the EditText field.
-        EditText enterPoemEnd = (EditText) findViewById(R.id.poem_end);
+        EditText enterPoemEnd = findViewById(R.id.poem_end);
         String poemEnd = enterPoemEnd.getText().toString();
 
-
+        // More information about checking if a string is empty: https://stackoverflow.com/questions/2601978/how-to-check-if-my-string-is-equal-to-null
         if (poemEnd.equals("")) {
             Toast.makeText(getApplicationContext(), getString(R.string.toast_no_answer, MainActivity.playerName), Toast.LENGTH_SHORT).show();
             return;
         }
 
         evaluateAnswer(poemEnd);
+
+        //  More information about how to start a new activity with a button: https://www.youtube.com/watch?v=n21mXO1ASJM
 
         Intent answerPage = new Intent(EditTextActivity.this, AnswerPageActivity.class);
         if (answerPage.resolveActivity(getPackageManager()) != null) {
@@ -59,9 +64,9 @@ public class EditTextActivity extends AppCompatActivity {
 
     private int evaluateAnswer(String poemEnd) {
 
-        if (poemEnd.equals("even death may die!") || poemEnd.equals("even death may die.") || poemEnd.equals("even death may die")) {
+        if (poemEnd.equals(getString(R.string.poem_answer_1)) || poemEnd.equals(getString(R.string.poem_answer_2)) || poemEnd.equals(getString(R.string.poem_answer_3))) {
             Toast.makeText(getApplicationContext(), getString(R.string.toast_right_answer, MainActivity.playerName), Toast.LENGTH_SHORT).show();
-            MainActivity.score += 30;
+            MainActivity.score += 10;
         } else {
             Toast.makeText(getApplicationContext(), getString(R.string.toast_wrong_answer, MainActivity.playerName), Toast.LENGTH_SHORT).show();
         }

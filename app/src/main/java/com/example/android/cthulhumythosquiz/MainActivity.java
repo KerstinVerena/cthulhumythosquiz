@@ -31,6 +31,12 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * Saved Instance State Bundle is used so that the scores don't reset when the app is rotated.
+     * Information and code about the activity lifecyle: https://developer.android.com/guide/components/activities/activity-lifecycle.html
+     * Code for using Activity States: https://stackoverflow.com/questions/151777/saving-android-activity-state-using-save-instance-state
+     */
+
     @Override
     public void onSaveInstanceState(Bundle outState) {
         outState.putString(statePlayerName, playerName);
@@ -52,17 +58,19 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * This method is called when the "Proof It"-Button at the start is clicked.
+     * More information about how to start a new activity with a button: https://www.youtube.com/watch?v=n21mXO1ASJM
      */
     public void startQuiz (View view){
 
         //Find out the player's name.
 
-        EditText addPlayerName = (EditText) findViewById(R.id.player_name);
+        EditText addPlayerName = findViewById(R.id.player_name);
         playerName = addPlayerName.getText().toString();
 
         questionsAsked = 1;
         score = 1;
 
+        // More information about checking if a string is empty: https://stackoverflow.com/questions/2601978/how-to-check-if-my-string-is-equal-to-null
         if (playerName.equals("")) {
             playerName = getString(R.string.default_name);
         }

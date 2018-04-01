@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/credits_header"
+        style="@style/questions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/credits" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/standardText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/code_idea" />
+
+            <TextView
+                style="@style/standardText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/based_on" />
+
+            <TextView
+                style="@style/standardText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quote_german" />
+
+            <TextView
+                style="@style/creditsLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="@string/translation_source" />
+
+            <TextView
+                style="@style/smallHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pics" />
+
+            <TextView
+                style="@style/creditsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cc03_text" />
+
+            <TextView
+                style="@style/creditsLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="@string/cc03_link" />
+
+            <TextView
+                style="@style/creditsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/picture_1" />
+
+            <TextView
+                style="@style/creditsLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="@string/picture_1_source" />
+
+            <TextView
+                style="@style/creditsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/picture_2" />
+
+            <TextView
+                style="@style/creditsLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="@string/picture_2_source" />
+
+            <TextView
+                style="@style/creditsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/picture_3" />
+
+            <TextView
+                style="@style/creditsLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="@string/picture_3_source" />
+
+            <TextView
+                style="@style/creditsLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="@string/picture_3_source_alt" />
+
+            <TextView
+                style="@style/creditsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/picture_4" />
+
+            <TextView
+                style="@style/creditsLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="@string/picture_4_source" />
+
+            <TextView
+                style="@style/creditsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/picture_5" />
+
+            <TextView
+                style="@style/creditsLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="@string/picture_5_source" />
+
+            <TextView
+                style="@style/creditsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/picture_6" />
+
+            <TextView
+                style="@style/creditsLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="@string/picture_6_source" />
+
+            <TextView
+                style="@style/creditsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cc00_text" />
+
+            <TextView
+                style="@style/creditsLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="@string/cc00_link" />
+
+            <TextView
+                style="@style/creditsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/picture_7" />
+
+            <TextView
+                style="@style/creditsLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="@string/picture_7_source" />
+
+            <Button
+                android:id="@+id/back_button"
+                style="@style/standardButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="backToEvaluation"
+                android:text="@string/back" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+

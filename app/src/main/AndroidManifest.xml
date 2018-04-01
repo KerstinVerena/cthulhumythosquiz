@@ -20,7 +20,8 @@
         <activity android:name=".AnswerPageActivity" />
         <activity android:name=".CheckBoxActivity" />
         <activity android:name=".EditTextActivity" />
-        <activity android:name=".EvaluationActivity"></activity>
+        <activity android:name=".EvaluationActivity" />
+        <activity android:name=".CreditsActivity"></activity>
     </application>
 
 </manifest>

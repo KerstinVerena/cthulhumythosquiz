@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <TextView
@@ -20,8 +19,10 @@
         <ImageView
             android:id="@+id/flavor_image"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/picture_size"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_vertical_answers"
             android:layout_marginTop="@dimen/vertical_padding"
+            android:contentDescription="@string/picture_5"
             android:src="@drawable/shoggoth_by_nottsuo" />
 
         <CheckBox
@@ -61,22 +62,22 @@
             android:text="@string/answer_button" />
 
         <TextView
-            android:id="@+id/mythos_knowledge"
+            android:id="@+id/progress"
             style="@style/standardText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/score_bar" />
+            android:text="@string/progress_bar" />
 
         <ProgressBar
-            android:id="@+id/score_bar"
+            android:id="@+id/progress_bar"
             style="@style/Widget.AppCompat.ProgressBar.Horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:indeterminate="false"
-            android:max="100"
-            android:progress="0"
             android:layout_marginLeft="@dimen/vertical_padding"
-            android:layout_marginRight="@dimen/vertical_padding" />
+            android:layout_marginRight="@dimen/vertical_padding"
+            android:indeterminate="false"
+            android:max="60"
+            android:progress="0" />
 
     </LinearLayout>
 

@@ -39,16 +39,30 @@
     <string name="question_5_answer_2">Stranger Things</string>
     <string name="question_5_answer_3">Das Lied von Eis und Feuer</string>
     <string name="question_5_answer_4">World of Warcraft</string>
-    <string name="explanation_1">Cthulhu is einer der großen Alten. Er wird als eine MIschung aus einem gigantischen Oktopus, einem Drachen und einem Menschen beschrieben. Daher kann man ihn auch ein Tentakelmonster zu ennen.</string>
+    <string name="explanation_1">Cthulhu is einer der großen Alten. Er wird als eine Mischung aus einem gigantischen Oktopus, einem Drachen und einem Menschen beschrieben. Daher kann man ihn auch ein Tentakelmonster zu ennen.</string>
     <string name="explanation_2">Shubb-Nigurath ist eine Gottheit, die von manchen zu den großen Alten, von manchen zu den äußeren Göttern gezählt wird. Ihre Anhänger nennen sie auch \"Die schwarze Ziege aus den Wäldern mit den tausend Jungen\".</string>
     <string name="explanation_3">Die Mi-go sind intelligente, außerirdische Lebewesen der Gattung Pilze. Ihre Heimat liegt auf dem Planeten Pluto, der im Mythos auch Yuggoth genannt wird.</string>
     <string name="explanation_4">Nach dem was im Mythos bekannt ist, gibt es zwei Hauptgründe für den Untergang der Kultur der alten Wesen: Die Rebellion der Shoggotten, einer Spezies, die ursprünglich von den alten Wesen als Diener erschaffen wurden, und die Abkühlung des Planeten während der Eiszeit.</string>
     <string name="explanation_5">Das Monster in \"Es\" von Stephen King, der \"Ertrunkene Gott\" in \"Ein Lied von Eis und Feier von George R.R. Marting, die Alten Götter in \"World of Warcraft\" von Blizzard Entertainment und die Wesenheit im Upside Down von Netflixs \"Stranger Things\" - sie alle weisen Referenzen und Themen des Cthulhu Mythos auf.</string>
-    <string name="explanation_6">That is not dead which can eternal lay,   and with strange aeons even death may die.</string>
-    <string name="poem">That is not dead which can eternal lay, \nand with strange aeons...</string>
-    <string name="final_score">Bein Cthulhu-Mythoswissen beträgt <xliff:g example="100%" id="rating">%1$s</xliff:g> von 100.</string>
-    <string name="good_rating">Kannst du sie in deinen Träumen flüstern hören, <xliff:g example="Acolyth" id="playername">%1$s</xliff:g>? \\n \\n Ph\'nglui mglw\'nafh Cthulhu R\'lyeh wgah\'nagl fhtagn</string>
-    <string name="average_rating">Möchtest du wirklich mehr wissen, <xliff:g example="Acolyth" id="playername">%1$s</xliff:g>?</string>
+    <string name="explanation_6">Diese Zeilen aus dem Nekronmikon sind gleichermaßen Fluch und Hoffnung der Anhänger Cthulhus.
+        \n \"Es ist nicht tot, was ewig liegt,
+        \n und in fremder Zeit wird selbst der Tod besiegt.\"
+        \n Quelle: HP Lovecraft, Der Ruf des Cthulhu. \nÜbersetzung von Adreas Diesel und Frank Festa, festa-Verlag.</string>
+    <string name="poem">Es ist nicht tot, was ewigt liegt, \nund in fremder Zeit &#8230;</string>
+    <string name="final_score">Dein Cthulhu-Mythoswissen beträgt <xliff:g example="100%" id="rating">%1$s</xliff:g> %%.</string>
+    <string name="good_rating">Du kennst die Gehimnisse der großen Alten. Kannst du sie schon in deinen Träumen flüstern hören, <xliff:g example="Acolyth" id="playername">%1$s</xliff:g>? \n
+        Wahrscheinlich bist zu inzwischen recht wahnsinning. Aber was ist ein gesunder Geist schon im Vergleich zu der Macht, den das Wissen um die großen Alten gewährt?
+        \n Ph\'nglui mglw\'nafh Cthulhu R\'lyeh wgah\'nagl fhtagn</string>
+    <string name="average_rating">Ich sehe, du hast bereits ein bisschen Wissen über die großen Alten gesammelt. \nDie Frage, die du dir jetzt selbst stellen musst: Möchtest du wirklich mehr wissen, <xliff:g example="Acolyth" id="playername">%1$s</xliff:g>?</string>
     <string name="low_rating">\"Die größte Gnade der Welt ist, so denke ich, die Unfähigkeit des menschlichen Geistes alle ihre Geheimnisse zu begreifen.\"  \\n H.P. Lovecraft - Der Ruft des Cthulhu 1926</string>
     <string name="toast_wrong_answer">Nein, <xliff:g example="Acolyte" id="playerName">%1$s</xliff:g>, das ist falsch!</string>
+    <string name="poem_answer_1">wird selbst der Tod besiegt.</string>
+    <string name="poem_answer_2">wird selbst der Tod besiegt!</string>
+    <string name="poem_answer_3">wird selbst der Tod besiegt</string>
+    <string name="play_again">Nochmal</string>
+    <string name="credits">Mitwirkende</string>
+    <string name="back">Zurück</string>
+    <string name="progress_bar">Fortschritt</string>
+    <string name="poem_hint">Antworte hier</string>
+
 </resources>

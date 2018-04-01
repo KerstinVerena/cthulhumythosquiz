@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="side_padding">24dp</dimen>
+<dimen name="vertical_padding">16dp</dimen>
+<dimen name="question_text_size">32sp</dimen>
+<dimen name="standard_text_size">18sp</dimen>
+<dimen name="button_margin_horizontal">88dp</dimen>
+<dimen name="margin_vertical_answers">4dp</dimen>
+<dimen name="margin_horizontal_answers">8dp</dimen>
+<dimen name="margin_radio_button_left">40dp</dimen>
+<dimen name="last_page_button_margin_horizontal">20dp</dimen>
+<dimen name="small_header_text">22sp</dimen>
+<dimen name="zero_dp">0dp</dimen>
+</resources>

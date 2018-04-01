@@ -28,5 +28,5 @@
    The pictures have been resized and in some cases been optimized for upload in the internet. No changes have been made to the
    content of the pictures. It can be that the depiction of the photos varies according to your device and settings.
    
-   The questions of this quiz are inspired by the "Cthulhu Mythos" by HP Lovecraft.
-   
+   The questions of this quiz are inspired by the "Cthulhu Mythos" by HP Lovecraft. Due to the author's death in 1937, the works used in this app fall into the public domain.
+   The German translation of the poem is taken from "Der Ruf des Cthulhu" ("The Call of Cthulhu") by Andreas Diesel and Frank Festa (https://www.festa-verlag.de/).

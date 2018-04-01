@@ -8,7 +8,7 @@ This app has been made as part of the Udacity Google Developer Challenge Scholar
 
 The following picutures are used under the CC Attribution-ShareAlike 3.0 Unported License(https://creativecommons.org/licenses/by-sa/3.0/deed.en):
 
-"The Unholy Worship" by Gwabryel's, Source: (http://gwabryel.blogspot.de/2008/05/unholy-worship-from-lovecrafts-text.html)
+"The Unholy Worship" by Gwabryel, Source: (http://gwabryel.blogspot.de/2008/05/unholy-worship-from-lovecrafts-text.html)
 
 "Spawn of the Stars" by Sofyan Syarief, Source: (https://www.artstation.com/artwork/8ordn)
 
@@ -19,10 +19,14 @@ The following picutures are used under the CC Attribution-ShareAlike 3.0 Unporte
 "Shoggoth" by Nottsuo, Source: (https://nottsuo.deviantart.com/art/Shoggoth-594261203)
 
 "The Madness from the Sea" by Sofyan Syarief (https://gambaryance.deviantart.com/art/The-Madness-from-the-Sea-125187653)
-  
-  
-The following picture is used under the CC 0 License (https://creativecommons.org/publicdomain/zero/1.0/deed.de)
 
-"Old Books" by Jose Antonio alba, Source: (https://pixabay.com/de/alte-b%C3%BCcher-buch-b%C3%BCcher-alte-lesen-1237619/)
+The pictures have been resized and optimized for better compatibility with different devices. They can be used under CC Attribution-ShareAlike 3.0 Unported License(https://creativecommons.org/licenses/by-sa/3.0/deed.en) with contribution to the original artist.
+  
+  
+The following picture is used under the CC 0 License (https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+"Old Books" by Jose Antonio Alba, Source: (https://pixabay.com/de/alte-b%C3%BCcher-buch-b%C3%BCcher-alte-lesen-1237619/)
+
+The picture has been resized and optimized for better compatibility with different devices. It can be used under CC 0 License (https://creativecommons.org/publicdomain/zero/1.0/deed.en). Please give contribution to the original artist.
 
 I want to thank all those amazing creative people allowing others to use their works!

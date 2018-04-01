@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
-import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -25,33 +24,33 @@ public class CheckBoxActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_check_box);
 
-        /**
-         * Get variables for the different views.
-         */
+        //Get variables for the different views.
 
-        TextView questionTextView = (TextView) findViewById(R.id.pose_question);
-        ImageView questionPicture = (ImageView) findViewById(R.id.flavor_image);
+        TextView questionTextView = findViewById(R.id.pose_question);
+        ImageView questionPicture = findViewById(R.id.flavor_image);
         Resources res = getResources();
-        checkBoxOne = (CheckBox) findViewById(R.id.checkbox_1);
-        checkBoxTwo = (CheckBox) findViewById(R.id.checkbox_2);
-        checkBoxThree = (CheckBox) findViewById(R.id.checkbox_3);
-        checkBoxFour = (CheckBox) findViewById(R.id.checkbox_4);
+        checkBoxOne = findViewById(R.id.checkbox_1);
+        checkBoxTwo = findViewById(R.id.checkbox_2);
+        checkBoxThree = findViewById(R.id.checkbox_3);
+        checkBoxFour = findViewById(R.id.checkbox_4);
+
 
         /**
-         * Add and update score bar.
+         * Add and update progress bar. More information about implementing a progress bar can be found on: https://developer.android.com/reference/android/widget/ProgressBar.html
          */
-        ProgressBar playerProgress = (ProgressBar) findViewById(R.id.score_bar);
-        playerProgress.setProgress(MainActivity.score);
+        ProgressBar playerProgress = findViewById(R.id.progress_bar);
+        int currentProgress = MainActivity.questionsAsked-1;
+        currentProgress = currentProgress*10;
+        playerProgress.setProgress(currentProgress);
 
-        /**
-         * Update questions and picture.
-         */
+        //Update questions and picture.
 
         if (MainActivity.questionsAsked == 5) {
             questionTextView.setText(getString(R.string.question_5));
 
-            //Update the picture
+            //Update the picture and description: More information and code for using and updating content descriptions: https://www.deque.com/blog/android-imageviews-accessible-content-descriptions/
             questionPicture.setImageDrawable(res.getDrawable(R.drawable.old_books_by_jose_antonio_alba));
+            questionPicture.setContentDescription(getResources().getString(R.string.picture_7));
 
             //Update the answers.
             checkBoxOne.setText(getString(R.string.question_5_answer_1));
@@ -66,26 +65,20 @@ public class CheckBoxActivity extends AppCompatActivity {
      */
 
     public void giveAnswer(View view) {
-        //Find out if Checkbox One is checked.
-        boolean hasCheckedBoxOne = checkBoxOne.isChecked();
-
-        //Find out if Checkbox Two is checked.
+       boolean hasCheckedBoxOne = checkBoxOne.isChecked();
        boolean hasCheckedBoxTwo = checkBoxTwo.isChecked();
-
-        //Find out if Checkbox Three is checked.
-        boolean hasCheckedBoxThree = checkBoxThree.isChecked();
-
-        //Find out if Checkbox Three is checked.
+       boolean hasCheckedBoxThree = checkBoxThree.isChecked();
        boolean hasCheckedBoxFour = checkBoxFour.isChecked();
 
 
-        if (hasCheckedBoxOne == false && hasCheckedBoxTwo == false && hasCheckedBoxThree == false && hasCheckedBoxFour == false) {
+        if (!hasCheckedBoxOne && !hasCheckedBoxTwo && !hasCheckedBoxThree && !hasCheckedBoxFour) {
             Toast.makeText(getApplicationContext(), getString(R.string.toast_no_answer, MainActivity.playerName), Toast.LENGTH_SHORT).show();
             return;
         }
 
         evaluateAnswer(hasCheckedBoxOne, hasCheckedBoxTwo, hasCheckedBoxThree, hasCheckedBoxFour);
 
+        //  More information about how to start a new activity with a button: https://www.youtube.com/watch?v=n21mXO1ASJM
         Intent answerPage = new Intent(CheckBoxActivity.this, AnswerPageActivity.class);
         if (answerPage.resolveActivity(getPackageManager()) != null) {
             startActivity(answerPage);
@@ -94,7 +87,7 @@ public class CheckBoxActivity extends AppCompatActivity {
     }
 
     /**
-     * Prevent people from going back in the app.
+     * Prevent people from going back in the app. Code used from: https://stackoverflow.com/questions/8631095/android-preventing-going-back-to-the-previous-activity
      */
     @Override
     public void onBackPressed() {
@@ -106,10 +99,10 @@ public class CheckBoxActivity extends AppCompatActivity {
 
     private int evaluateAnswer(boolean hasCheckedBoxOne, boolean hasCheckedBoxTwo, boolean hasCheckedBoxThree, boolean hasCheckedBoxFour) {
         if (MainActivity.questionsAsked == 4) {
-            if (hasCheckedBoxOne == true && hasCheckedBoxThree == true && hasCheckedBoxTwo ==false && hasCheckedBoxFour == false) {
+            if (hasCheckedBoxOne && hasCheckedBoxThree && !hasCheckedBoxTwo && !hasCheckedBoxFour) {
                 Toast.makeText(getApplicationContext(), getString(R.string.toast_right_answer, MainActivity.playerName), Toast.LENGTH_SHORT).show();
                 MainActivity.score += 20;
-            } else if (hasCheckedBoxOne == false && hasCheckedBoxThree == false) {
+            } else if (!hasCheckedBoxOne && !hasCheckedBoxThree) {
                 Toast.makeText(getApplicationContext(), getString(R.string.toast_wrong_answer, MainActivity.playerName), Toast.LENGTH_SHORT).show();
             } else {
                 Toast.makeText(getApplicationContext(), getString(R.string.toast_part_answer), Toast.LENGTH_SHORT).show();
@@ -118,12 +111,24 @@ public class CheckBoxActivity extends AppCompatActivity {
         }
 
         if (MainActivity.questionsAsked == 5) {
-            if (hasCheckedBoxOne == true && hasCheckedBoxTwo == true && hasCheckedBoxThree == true && hasCheckedBoxFour == true) {
+            if (hasCheckedBoxOne && hasCheckedBoxTwo && hasCheckedBoxThree && hasCheckedBoxFour) {
                 Toast.makeText(getApplicationContext(), getString(R.string.toast_right_answer, MainActivity.playerName), Toast.LENGTH_SHORT).show();
-                MainActivity.score += 20;
+                MainActivity.score += 40;
             } else {
                 Toast.makeText(getApplicationContext(), getString(R.string.toast_part_answer), Toast.LENGTH_SHORT).show();
-                MainActivity.score += 10;
+
+                if (hasCheckedBoxOne) {
+                    MainActivity.score += 10;
+                }
+                if (hasCheckedBoxTwo) {
+                    MainActivity.score += 10;
+                }
+                if (hasCheckedBoxThree) {
+                    MainActivity.score += 10;
+                }
+                if (hasCheckedBoxFour) {
+                    MainActivity.score += 10;
+                }
             }
         }
         return MainActivity.score;
