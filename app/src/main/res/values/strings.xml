@@ -1,0 +1,146 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Cthulhu Mythos Quiz</string>
+
+    <!---The greeting words on the first Screen [CHAR LIMIT=50] -->
+    <string name="greeting">Welcome, Acolyte, what is your name?</string>
+
+    <!---The invitation to start the quiz [CHAR LIMIT=NONE] -->
+    <string name="starting_call">You think you know the mysteries of the Great Beings of old?</string>
+
+    <!---Text on the button to start the quiz [CHAR LIMIT=15] -->
+    <string name="start_button">Proof it!</string>
+
+    <!---Text on the button to submit an answer [CHAR LIMIT=10] -->
+    <string name="answer_button">Answer</string>
+
+    <!---Text on the button to continue from answer page [CHAR LIMIT=10] -->
+    <string name="continue_button">Continue</string>
+
+    <!---Hints shown in fields where the player can enter text [CHAR LIMIT=10] -->
+    <string name="hint_name">Name</string>
+
+    <!---Names the progress bar [CHAR LIMIT=50] -->
+    <string name="progress_bar">Progress:</string>
+
+    <!---This name is shown, when the player does not choose a name by his own. -->
+    <string name="default_name">Acolyte</string>
+
+    <!---The questions in order in which they are asked [CHAR LIMIT=NONE] -->
+    <string name="question_1">What kind of creature is Cthulhu?</string>
+    <string name="question_2">Which creature is also called \"The Black Goat from the Woods with a Thousand Young\"?</string>
+    <string name="question_3">From where are the Mi-go?</string>
+    <string name="question_4">Why did the culture of the Elder Things collapse?</string>
+    <string name="question_5">Which works show themes or references inspired by the Cthulhu Mythos?</string>
+    <string name="question_6">Complete the following poem!</string>
+
+    <!---Text in the toast message if the player submits no answer.
+    It will be shown in the format: "Make at least a guess, Acolyte!" With "Acolyte" being the player name.[CHAR LIMIT=20] -->
+    <string name="toast_no_answer">Make at least a guess, "<xliff:g example="Acolyte" id="playerName">%1$s</xliff:g>" !</string>
+
+    <!---Text in the toast message if the player gives a wrong answer.
+    It will be shown in the format: "No, Acolyte, this is not correct!" With "Acolyte" being the player name.[CHAR LIMIT=20] -->
+    <string name="toast_wrong_answer">No, "<xliff:g example="Acolyte" id="playerName">%1$s</xliff:g>", this is not correct!</string>
+
+    <!---Text in the toast message if the player gives a correct answer.
+    It will be shown in the format: "Very good, Acolyte, this is correct!" With "Acolyte" being the player name.[CHAR LIMIT=20] -->
+    <string name="toast_right_answer">Very good, "<xliff:g example="Acolyte" id="playerName">%1$s</xliff:g>", this is correct!</string>
+
+    <!---Text in the toast message if the player gives a fun answer.[CHAR LIMIT=20] -->
+    <string name="toast_fun_answer">Well... not wrong.</string>
+
+    <!---Text in the toast message if the player gives a partly correct answer.[CHAR LIMIT=20] -->
+    <string name="toast_part_answer">This is correct, but there is more to know.</string>
+
+    <!--- Hint for answering the poem. -->
+    <string name="poem_hint">Answer here</string>
+
+
+    <!---The answers in order in which they are displayed [CHAR LIMIT=NONE] -->
+    <string name="question_1_answer_1">A Deep One</string>
+    <string name="question_1_answer_2">An Outer Good</string>
+    <string name="question_1_answer_3">A Great Old One</string>
+    <string name="question_1_answer_4">A Freaking Tentacle Monster</string>
+
+    <string name="question_2_answer_1">Cthulhu</string>
+    <string name="question_2_answer_2">Mother Hydra</string>
+    <string name="question_2_answer_3">Shubb-Nigurath</string>
+    <string name="question_2_answer_4">Hekate</string>
+
+    <string name="question_3_answer_1">Pluto</string>
+    <string name="question_3_answer_2">The Moon</string>
+    <string name="question_3_answer_3">The Depth of the Sea</string>
+    <string name="question_3_answer_4">R\'lyeh</string>
+
+    <string name="question_4_answer_1">The Rebellion of the Shoggoths</string>
+    <string name="question_4_answer_2">A War with Cthulhu and the Deep Ones</string>
+    <string name="question_4_answer_3">The Ice Age</string>
+    <string name="question_4_answer_4">A giant Civil War</string>
+
+    <string name="question_5_answer_1">Stephen King\'s \"It\"</string>
+    <string name="question_5_answer_2">Stranger Things</string>
+    <string name="question_5_answer_3">A Song of Ice and Fire</string>
+    <string name="question_5_answer_4">World of Warcraft</string>
+
+    <!---The answers on the answer pages in the order in which they are displayed. [CHAR LIMIT=NONE] -->
+    <string name="explanation_1">Cthulhu is a Great Old One. He is normally described as the mixture between a giant octopus,
+    a dragon and a human - so calling him a tentacle monster is correct as well.</string>
+    <string name="explanation_2">Shubb-Niggurath, a deity sometimes counted among the Great Old Ones, sometimes among the Outer Gods,
+        is also called \"The Black Goat from the Woods with a Thousand Young\" by her followers.</string>
+    <string name="explanation_3">The Mi-go are a fungus-based, intelligent extraterrestrial life form. Their origin lies on the planet
+    we know as Pluto, also referred to as Yuggoth in the mythos.</string>
+    <string name="explanation_4">From what is known in the mythos, the two main reasons for the collapse of the culture of the
+        elder things was the rebellion of the Shoggoths, a species originally created by the Elder Things as workers,
+        and the cooling of the planet due to the Ice Age.</string>
+    <string name="explanation_5">The monster in \"It\" from Stephen King, the \"Drowned God\" in \"A Song of Ice and Fire\" by
+        George R. R. Martin, the Old Gods in \"World of Warcraft\" from Blizzard Entertainment and the entity in the
+        Upside-Down from Netflix\' \"Stranger Things\" - they all show references and themes inspired by the
+        Cthulhu mythos.</string>
+    <string name="explanation_6">Yes, these words from the Necronomicon are both - the curse and the hope of the followers of Cthulhu. \n \"That is not dead which can eternal lay,   and with strange aeons even death may die.\"
+        \n H.P. Lovecraft, The call of Cthulhu.</string>
+
+    <!---A poem displayed in the last question. [CHAR LIMIT=NONE] -->
+    <string name="poem">That is not dead which can eternal lay, \n and with strange aeons ...</string>
+
+    <!---The correct answers for the code quiz. [CHAR LIMIT=NONE] -->
+    <string name="poem_answer_1">even death may die.</string>
+    <string name="poem_answer_2">even death may die!</string>
+    <string name="poem_answer_3">even death may die</string>
+
+
+    <!---Messages for the evaluation of player success -->
+    <string name="final_score">Your Cthulhu Mythos Knowledge is "<xliff:g example="100%" id="rating">%1$s</xliff:g> %%."</string>
+    <string name="good_rating">You know the mysteries of the old ones. Can you already hear their whispers in your dreams, <xliff:g example="Acolyth" id="playername">%1$s</xliff:g>?
+        You are probably quite mad by now - but what is sanity compared to the power that comes with the knowledge about the old ones?
+        Ph\'nglui mglw\'nafh Cthulhu R\'lyeh wgah\'nagl fhtagn</string>
+    <string name="average_rating">I see - you are not one completely new to the mysteries of the old ones. The question you now have to ask yourself: do you really want to know more, "<xliff:g example="Acolyth" id="playername">%1$s</xliff:g>"?</string>
+    <string name="low_rating">\"The most merciful thing in the world, I think, is the inability of the human mind to correlate all its contents.\"
+    \n\nH.P. Lovecraft - The Call of Cthulhu, 1926</string>
+    <string name="play_again">Play Again</string>
+    <string name="credits">Credits</string>
+    <string name="back">Back</string>
+    <string name="code_idea">Code and idea by: Kerstin Baumann, 2018</string>
+    <string name="based_on">The questions in this quiz are based on the Cthulhu Mythos created by H.P. Lovecraft.</string>
+    <string name="quote_german">The German translation of the poem is from the translation \"Der Ruf des Cthulhu\" by Andreas Diesel and Frank Festa.</string>
+    <string name="translation_source">https://www.festa-verlag.de/</string>
+    <string name="pics">Pictures:</string>
+    <string name="cc03_text">The following pictures are used under the CC Attribution-ShareAlike 3.0 Unported License</string>
+    <string name="cc03_link">https://creativecommons.org/licenses/by-sa/3.0/deed.en</string>
+    <string name="cc00_text">The following picture is used under the CC 0 License</string>
+    <string name="cc00_link">https://creativecommons.org/publicdomain/zero/1.0/deed.en</string>
+    <string name="picture_1">\"The Unholy Worship\" by Gwabryel</string>
+    <string name="picture_1_source">http://gwabryel.blogspot.de/2008/05/unholy-worship-from-lovecrafts-text.html</string>
+    <string name="picture_2">\"Spawn of the Stars\" by Sofyan Syarief</string>
+    <string name="picture_2_source">https://www.artstation.com/artwork/8ordn</string>
+    <string name="picture_3">\"Shub-Niggurath\" by Dominique Signoret. The original source of the pictures seems currently unavailable. An alternative source has been added.</string>
+    <string name="picture_3_source">http://signodom.club.fr/</string>
+    <string name="picture_3_source_alt">https://en.wikipedia.org/wiki/File:Shub-Niggurath.jpg</string>
+    <string name="picture_4">\"Migo\" by Khaenna SunTzun</string>
+    <string name="picture_4_source">https://commons.wikimedia.org/wiki/File:Migo.jpg</string>
+    <string name="picture_5">\"Shoggoth\" by Nottsuo</string>
+    <string name="picture_5_source">https://nottsuo.deviantart.com/art/Shoggoth-594261203</string>
+    <string name="picture_6">\"The Madness from the Sea\" by Sofyan Syarief</string>
+    <string name="picture_6_source">https://gambaryance.deviantart.com/art/The-Madness-from-the-Sea-125187653</string>
+    <string name="picture_7">\"Old Books\" by Jose Antonio Alba</string>
+    <string name="picture_7_source">https://pixabay.com/de/alte-b%C3%BCcher-buch-b%C3%BCcher-alte-lesen-1237619/</string>
+
+</resources>

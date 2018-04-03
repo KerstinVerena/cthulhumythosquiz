@@ -1,0 +1,101 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here.  -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="questions">
+        <item name="android:paddingLeft">@dimen/side_padding</item>
+        <item name="android:paddingRight">@dimen/side_padding</item>
+        <item name="android:paddingTop">@dimen/vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/vertical_padding</item>
+        <item name="android:textSize">@dimen/question_text_size</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="editTextViews">
+        <item name="android:paddingLeft">@dimen/side_padding</item>
+        <item name="android:paddingRight">@dimen/side_padding</item>
+        <item name="android:textSize">@dimen/standard_text_size</item>
+    </style>
+
+    <style name="standardText">
+        <item name="android:paddingLeft">@dimen/side_padding</item>
+        <item name="android:paddingRight">@dimen/side_padding</item>
+        <item name="android:paddingTop">@dimen/vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/vertical_padding</item>
+        <item name="android:textSize">@dimen/standard_text_size</item>
+    </style>
+
+    <style name="standardButton">
+        <item name="android:layout_marginLeft">@dimen/button_margin_horizontal</item>
+        <item name="android:layout_marginRight">@dimen/button_margin_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/vertical_padding</item>
+        <item name="android:layout_marginBottom">@dimen/vertical_padding</item>
+        <item name="android:textSize">@dimen/standard_text_size</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="radioButtonStandard">
+        <item name="android:paddingLeft">@dimen/margin_radio_button_left</item>
+        <item name="android:paddingRight">@dimen/side_padding</item>
+        <item name="android:paddingTop">@dimen/vertical_padding</item>
+    </style>
+
+    <style name="radioButtonLandscapePad">
+        <item name="android:paddingLeft">@dimen/margin_radio_button_left</item>
+        <item name="android:paddingRight">@dimen/side_padding</item>
+    </style>
+
+    <style name="radioButtonChild">
+        <item name="android:paddingLeft">@dimen/side_padding</item>
+        <item name="android:textSize">@dimen/standard_text_size</item>
+        <item name="android:paddingTop">@dimen/margin_vertical_answers</item>
+    </style>
+
+    <style name="checkBox">
+        <item name="android:layout_marginLeft">@dimen/margin_radio_button_left</item>
+        <item name="android:layout_marginRight">@dimen/side_padding</item>
+        <item name="android:paddingLeft">@dimen/side_padding</item>
+        <item name="android:textSize">@dimen/standard_text_size</item>
+    </style>
+
+    <style name="lastPageButton">
+        <item name="android:layout_marginLeft">@dimen/last_page_button_margin_horizontal</item>
+        <item name="android:layout_marginRight">@dimen/last_page_button_margin_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/vertical_padding</item>
+        <item name="android:layout_marginBottom">@dimen/vertical_padding</item>
+        <item name="android:textSize">@dimen/standard_text_size</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="smallHeader">
+        <item name="android:paddingLeft">@dimen/side_padding</item>
+        <item name="android:paddingRight">@dimen/side_padding</item>
+        <item name="android:paddingTop">@dimen/vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/vertical_padding</item>
+        <item name="android:textSize">@dimen/small_header_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="creditsText">
+        <item name="android:paddingLeft">@dimen/side_padding</item>
+        <item name="android:paddingRight">@dimen/side_padding</item>
+        <item name="android:paddingTop">@dimen/vertical_padding</item>
+        <item name="android:textSize">@dimen/standard_text_size</item>
+    </style>
+
+    <style name="creditsLink">
+        <item name="android:paddingLeft">@dimen/side_padding</item>
+        <item name="android:paddingRight">@dimen/side_padding</item>
+        <item name="android:paddingBottom">@dimen/vertical_padding</item>
+        <item name="android:textSize">@dimen/standard_text_size</item>
+    </style>
+
+</resources>
