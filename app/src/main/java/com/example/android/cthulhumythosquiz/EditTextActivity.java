@@ -39,7 +39,7 @@ public class EditTextActivity extends AppCompatActivity {
     public void giveAnswer(View view) {
         //Find out what is typed in the EditText field.
         EditText enterPoemEnd = findViewById(R.id.poem_end);
-        String poemEnd = enterPoemEnd.getText().toString();
+        String poemEnd = enterPoemEnd.getText().toString().trim();
 
         // More information about checking if a string is empty: https://stackoverflow.com/questions/2601978/how-to-check-if-my-string-is-equal-to-null
         if (poemEnd.equals("")) {

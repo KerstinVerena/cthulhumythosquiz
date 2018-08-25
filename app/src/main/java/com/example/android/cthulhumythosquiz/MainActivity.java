@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         //Find out the player's name.
 
         EditText addPlayerName = findViewById(R.id.player_name);
-        playerName = addPlayerName.getText().toString();
+        playerName = addPlayerName.getText().toString().trim();
 
         questionsAsked = 1;
         score = 1;
